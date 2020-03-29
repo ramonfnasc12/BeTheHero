@@ -34,6 +34,8 @@ module.exports={
 
         res.header('X-Total-Count',count['count(*)']);
 
+        console.log(page);
+
         return res.json(incidents);
     },
 
